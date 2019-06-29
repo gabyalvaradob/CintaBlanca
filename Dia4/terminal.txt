@@ -1,0 +1,6 @@
+ls -> muestra los elementos del directorio en lista
+cd -> change directory, nos movemos a una carpeta
+git -> muestra una mini guia de los comandos disponibles para git
+git status -> muestra los cambios que se han hecho en el repositorio
+git add -A -> Preparamos todos los elementos de una carpeta para subir
+git commit -m "mensaje"-> asignamos un mensaje al cambio que agregamos anteriormente
