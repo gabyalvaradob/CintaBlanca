@@ -1,0 +1,25 @@
+body {
+  font-family:Helvetica,Futura,Arial,Verdana,sans-serif;
+  background-color: lavender;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    color: pink;
+}
+p {
+    text-justify: inherit;
+}
+footer {
+    color: dimgrey;
+    font-size: 12px;
+}

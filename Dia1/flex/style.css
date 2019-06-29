@@ -1,0 +1,24 @@
+.contenedor {
+    display: flex;
+    height: 500px;
+    width: 500px;
+    flex-direction: column;
+}
+
+.elemento1 {
+    background-color: #ff0101;
+    height: 100px;
+    width: 100px;
+}
+
+.elemento2 {
+    background-color: hsl(246, 100%, 50%);
+    height: 100px;
+    width: 100px;
+}
+
+.elemento3 {
+    background-color: #0b7514;
+    height: 100px;
+    width: 100px;
+}

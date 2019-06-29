@@ -1,0 +1,31 @@
+.google{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10rem;
+}
+
+.centrar{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+input {
+    display: block;
+    width: 520px;
+    height: 22px;
+    border-radius: 15px;
+}
+
+#suerte {
+    margin-left: 15px;
+}
+
+button {
+    height: 20px;
+    color: black;
+    background-color: lightgray;
+    border-radius: 10px;
+    
+}

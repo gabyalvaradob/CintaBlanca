@@ -1,0 +1,22 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.rojo {
+    color: red;
+}
+
+.verde {
+    color: green;
+}
+
+.caja {
+    border: 5px solid black;
+    height: 300px;
+    width: 300px;
+}
+
+.cajita {
+    background: #5a42e0;
+    height: 200px;
+    width: 200px;
+}
