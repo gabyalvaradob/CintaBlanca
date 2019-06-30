@@ -20,12 +20,37 @@ for(let i = 0; i<=10;i++){
 
 let platillos = ["empanada", "tostada", "garnacha", "tamal", "picadillo"];
 
+//1
 for(let i=0; i<platillos.length; i++){
     console.log(platillos[i]);
 }
 
+//2
+let favs = [];
 for(let i=0; i<platillos.length; i++){
-    if((platillos[i].length)%2 === 1){
-        console.log(platillos[i]);
+    if(platillos[i] === "garnacha" || platillos[i] === "tamal"){
+        favs.push(platillos[i]);
     }
 }
+console.log(favs);
+
+//2 mas sencillo
+console.log(platillos[2] + " y " + platillos[3]);
+
+//3
+let impares = [];
+for(let i=0; i<platillos.length; i++){
+    if((platillos[i].length)%2 === 1){
+        impares.push(platillos[i]);
+    }
+}
+console.log(impares);
+
+//4
+let pares = [];
+for (let i = 0; i < platillos.length; i++) {
+    if((platillos[i].length)%2 === 0){
+        pares.push(platillos[i]);
+    }
+}
+console.log(pares);

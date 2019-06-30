@@ -43,11 +43,4 @@ function jugar(j1, j2) {
     console.log("El ganador es " + ganador);
 }
 
-jugar('piedra', 'piedra');
-
-
-let numeros = [0,1,2,3,4,5,6,7,8,9,10,11,15,18,21];
-
-function impares() {
-    
-}
+jugar('piedra', 'papel');

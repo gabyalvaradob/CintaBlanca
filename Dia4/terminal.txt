@@ -5,3 +5,5 @@ git status -> muestra los cambios que se han hecho en el repositorio
 git add -A -> Preparamos todos los elementos de una carpeta para subir
 git commit -m "mensaje"-> asignamos un mensaje al cambio que agregamos anteriormente
 git push origin master -> Subimos cambios a github
+git clone "url" -> clona algun repositorio
+git pull origin master -> Obtenemos cambios que se encuentran en el repositorio
