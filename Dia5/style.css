@@ -1,0 +1,68 @@
+#logo {
+    height: 45px;
+}
+
+.myNavBar {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+}
+
+/* .card{
+    width: 30%;
+} */
+
+#block-opening-hero {
+    background-image: url('https://campaigns.scdn.co/images/premium_dancer_prod.png');
+}
+
+#block-opening-hero .tertiary > a {
+color: white;
+}
+
+/* 0px - 540px */
+@media(max-width: 540px){
+    .title{
+        text-align: center;
+    }
+}
+
+/*540px - 720px */
+@media(min-width: 540px){
+    .title{
+        text-align: center;
+    }
+}
+
+/*720px - 960px */
+@media(min-width: 720px){
+    .title{
+        text-align: left;
+    }
+}
+
+/*960px - 1140px */
+@media(min-width: 960px){
+    .title{
+        text-align: left;
+    }
+}
+
+/*1140px - mas */
+@media(min-width: 1140px){
+    .title{
+        text-align: left;
+    }
+}
+
+/* sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px */

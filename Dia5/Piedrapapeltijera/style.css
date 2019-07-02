@@ -1,0 +1,41 @@
+.j1 {
+    background-color: red;
+}
+
+.j2{
+    background-color:  blue;
+}
+
+.imagen{
+    height: 350px;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.instruccion{
+    background-color: black;
+}
+
+h1{
+    text-align: center;
+}
+
+#logo {
+    height: 55px;
+}
+
+.myNavBar {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+}

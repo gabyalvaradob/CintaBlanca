@@ -86,4 +86,4 @@ console.log(vocales);
 
 let segL = (vocales[0]);
 
-console.log("Su RFC es: " +primL+segL+terL+cuarL+yearNac+mesNac+diaNac);
+console.log("Su RFC es: " +primL+segL+terL+cuarL+yearNac+mesNac+diaNac+"XXX");
